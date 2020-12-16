@@ -7,8 +7,37 @@
 ### 2.NroServer介绍
 
 简单web服务器
+##### 2.1 主要文件说明
+###### src：
+  Dispatcher.java：分发器
+  
+  LoginServlet.java：
 
-##### 2.1 部署项目
+  RegisterServlet.java
+
+  Request.java：请求封装
+
+  Response.java：响应封装
+
+  Server.java：服务器入口
+  
+  Servlet.java：Servlet接口
+  
+  WebApp.java：xml解析与反射
+  
+  WebContext.java：xml上下文处理
+  
+  WebHandler.java：xml解析handler
+  
+
+###### model:
+
+  Servlet.java：javaBean
+
+  ServletMapping.java：javaBean
+  
+
+##### 2.2 部署项目
 
 
 
@@ -18,7 +47,7 @@ git clone https://github.com/moonris/NrmServer.git
 
 
 
-##### 2.2 启动项目
+##### 2.3 启动项目
 
 ```
 Server Run
@@ -26,7 +55,7 @@ Server Run
 
 
 
-##### 2.3 访问项目
+##### 2.4 访问项目
 
 ```
 http://locathost:8080/
