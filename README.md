@@ -2,6 +2,8 @@
 
 ### 1.前言
 
+模仿Tomcat写的项目，功能很少，收获很大。
+
 我的博客：https://www.nroma.cn
 
 ### 2.NroServer介绍
@@ -15,9 +17,9 @@
 
   RegisterServlet.java
 
-  Request.java：请求封装
+  Request.java：HTTP请求封装
 
-  Response.java：响应封装
+  Response.java：HTTP响应封装
 
   Server.java：服务器入口
   
